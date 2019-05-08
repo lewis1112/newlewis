@@ -1,10 +1,56 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>gitpush</title>
+	<style>
+		.conten-box{
+			width: 1220px;
+			height: auto;
+			background: #f4f4f4;
+			margin: 0 auto;
+			padding-bottom: 50px;
+		}
+		.flex-box{
+			width: 900px;
+			margin: 0 auto;
+			background: #fff;
+			height: auto;
+			display: -webkit-flex;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.flex-box div{
+			background: #f00;
+			width: 80px;
+			height: 120px;
+			font-size: 24px;
+			color: #fff;
+			font-weight: bolder;
+			text-align: center;
+			/*自动填充空余，默认为0*/
+			/*flex-grow: 1; */
+		}
+	</style>
 </head>
 <body>
-	<h1>Hello World</h1>
+	<div class="conten-box">
+		<h1>Hello World</h1>
+		<div class="flex-box">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div>10</div>
+		</div>
+	</div>
+	
 </body>
 </html>
